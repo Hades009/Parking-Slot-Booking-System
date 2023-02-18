@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Design.master.cs" Inherits="WebApplication1.Design" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 72px;
+        }
+        .auto-style2 {
+            width: 100%;
+            height: 76px;
+        }
+        </style>
+</head>
+<body bgcolor="#EEEEEE" style="height: 918px">
+            <table class="auto-style2">
+                <tr bgcolor="#354f52">
+                    <td><font face="Verdana" color="White" size="12">&nbsp;PARK EZ</font></td>
+                </tr>
+            </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <table class="auto-style1">
+                <tr bgcolor="#354f52">
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+</body>
+</html>
