@@ -16,13 +16,13 @@
         height: 24px;
         }
         .auto-style1 {
-            width: 268435456px;
+            width: 446px;
         }
         .auto-style2 {
             height: 68px;
         }
         .auto-style3 {
-            width: 268435456px;
+            width: 446px;
             height: 68px;
         }
     </style>
@@ -31,8 +31,6 @@
    <form id="form1" runat="server">
         <table align="center">
             <tr>
-                <td class="auto-style5" rowspan="14">
-                    &nbsp;</td>
                 <td colspan="2" class="auto-style12">
                     <br />
                     <br />
