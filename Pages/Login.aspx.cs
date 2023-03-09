@@ -28,13 +28,15 @@ namespace WebApplication1
                 Response.Write("<script>alert('You're logged in as "+ dt.Rows[0][2]+"')</script>");
                 if (DropDownList1.SelectedIndex == 0)
                 {
+                    Response.Write("<script>alert('Logged in as Admin! Welcome!')</script>");
                     Server.Transfer("AdminHome.aspx");
                 } else if (DropDownList1.SelectedIndex==1) {
+                    Response.Write("<script>alert('Logged in as User! Welcome!')</script>");
                     Server.Transfer("UserHome.aspx");
                 }
             }
             else {
-                Response.Write("Username, Password Incorrect / Usertype not matching");
+                Response.Write("<script>alert('Username, Password Incorrect / Usertype not matching')</script>");
             }
         }
 

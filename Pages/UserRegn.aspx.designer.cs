@@ -42,13 +42,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// F_Name control.
+        /// txtfname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox F_Name;
+        protected global::System.Web.UI.WebControls.TextBox txtfname;
 
         /// <summary>
         /// RequiredFieldValidator7 control.
@@ -69,13 +69,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// L_Name control.
+        /// txtlname control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox L_Name;
+        protected global::System.Web.UI.WebControls.TextBox txtlname;
 
         /// <summary>
         /// RequiredFieldValidator6 control.
@@ -96,13 +96,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// UserNameBox control.
+        /// txtUser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserNameBox;
+        protected global::System.Web.UI.WebControls.TextBox txtUser;
 
         /// <summary>
         /// RequiredFieldValidator1 control.
@@ -123,13 +123,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// AadharBox control.
+        /// txtAadhar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AadharBox;
+        protected global::System.Web.UI.WebControls.TextBox txtAadhar;
 
         /// <summary>
         /// RequiredFieldValidator5 control.
@@ -150,13 +150,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// AddrBox control.
+        /// txtAddr control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AddrBox;
+        protected global::System.Web.UI.WebControls.TextBox txtAddr;
 
         /// <summary>
         /// RequiredFieldValidator2 control.
@@ -177,13 +177,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Passw control.
+        /// txtPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Passw;
+        protected global::System.Web.UI.WebControls.TextBox txtPass;
 
         /// <summary>
         /// RequiredFieldValidator3 control.
@@ -204,13 +204,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// ConfPassw control.
+        /// txtConfpassw control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ConfPassw;
+        protected global::System.Web.UI.WebControls.TextBox txtConfpassw;
 
         /// <summary>
         /// RequiredFieldValidator4 control.
@@ -238,14 +238,5 @@ namespace WebApplication1.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// Button2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
     }
 }
