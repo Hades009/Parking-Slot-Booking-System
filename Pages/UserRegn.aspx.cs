@@ -27,8 +27,8 @@ namespace WebApplication1.Pages
             VALUES ('" + txtfname.Text + "','" + txtlname + "','" + txtUser.Text + "','" + txtAadhar.Text + "','" + txtAddr.Text + "','" + txtPass.Text + "')", con);
             con.Open();
             cmd.ExecuteNonQuery();
-            Response.Write("<script>alert('User Registered successfully')</script>");
             con.Close();
+            Response.Write("<script>alert('User Registered successfully')</script>");
         }
     }
 }
