@@ -47,7 +47,7 @@ namespace WebApplication1
 
         protected void LinkButton2_Click1(object sender, EventArgs e)
         {
-            Server.Transfer("UserRegn.aspx");
+            Server.Transfer("UserRegistration.aspx");
         }
     }
 }
