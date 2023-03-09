@@ -25,6 +25,13 @@
             width: 446px;
             height: 68px;
         }
+        .auto-style4 {
+            height: 67px;
+        }
+        .auto-style5 {
+            width: 446px;
+            height: 67px;
+        }
     </style>
 </head>
 <body bgcolor="#EEEEEE">
@@ -70,10 +77,10 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style10">
+                <td class="auto-style4">
                     <asp:Label ID="Label1" runat="server" Text="Username" Font-Names="Verdana"></asp:Label>
                 </td>
-                <td class="auto-style1">
+                <td class="auto-style5">
                     <br />
                     <asp:TextBox ID="txtUser" runat="server" Width="190px" Font-Names="Verdana"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUser" Display="Dynamic" ErrorMessage="*" Font-Names="Verdana" ForeColor="Red"></asp:RequiredFieldValidator>
@@ -82,12 +89,12 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style10">
-                    &nbsp;<asp:Label ID="Label8" runat="server" Text="Aadhar Number" Font-Names="Verdana"></asp:Label>
+                <td class="auto-style8">
+                    <asp:Label ID="Label8" runat="server" Text="Aadhar Number" Font-Names="Verdana"></asp:Label>
                 </td>
                 <td class="auto-style1">
                     <br />
-                    <asp:TextBox ID="txtAadhar" runat="server" Width="190px" Font-Names="Verdana"></asp:TextBox>
+                    <asp:TextBox ID="txtAadhar" runat="server" Width="190px" Font-Names="Verdana" TextMode="Number"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtAadhar" Display="Dynamic" ErrorMessage="*" Font-Names="Verdana" ForeColor="Red"></asp:RequiredFieldValidator>
                     <br />
                     <br />
