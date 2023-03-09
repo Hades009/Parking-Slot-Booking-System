@@ -133,7 +133,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:Label ID="Label11" runat="server" Font-Names="Verdana" Text="Usertype"></asp:Label>
+                    <asp:Label ID="Label11" runat="server" Font-Names="Verdana" Text="User Type"></asp:Label>
                 &nbsp;<font color="Red">*</td>
                 <td class="auto-style3">
                     <asp:RadioButton GroupName="user" ID="UserType" runat="server" Font-Names="Verdana" Text="User" OnCheckedChanged="RadioButton1_CheckedChanged" />
