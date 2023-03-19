@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="UserRegistration.aspx.cs" Inherits="WebApplication1.Pages.UserRegistration" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AdminRegistration.aspx.cs" Inherits="WebApplication1.Pages.AdminRegistration" %>
 
 <!DOCTYPE html>
 
@@ -142,7 +142,7 @@
                     <asp:Label ID="Label11" runat="server" Font-Names="Verdana" Text="User Type"></asp:Label>
                 &nbsp;<font color="Red">*</td>
                 <td class="auto-style3">
-                    <asp:RadioButton GroupName="user" ID="UserType" runat="server" Font-Names="Verdana" Text="User" OnCheckedChanged="RadioButton1_CheckedChanged" />
+                    <asp:RadioButton GroupName="admin" ID="UserType" runat="server" Font-Names="Verdana" Text="Admin" OnCheckedChanged="RadioButton1_CheckedChanged" />
                     <br />
                 </td>
             </tr>
@@ -159,7 +159,7 @@
             </tr>
             <tr>
                 <td class="auto-style7">
-                    <asp:Button ID="registerBtn" runat="server" class="mybtn" Height="36px" Text="Register" Width="171px" Font-Names="Verdana" BorderStyle="None" ForeColor="White" OnClick="registerBtn_Click" Font-Size="Medium" />
+                    <asp:Button ID="registeradmnBtn" class="mybtn" runat="server" Text="Register" BorderStyle="None" Font-Names="Verdana" Font-Size="Medium" ForeColor="White" Height="41px" OnClick="Button1_Click" Width="165px" />
                 </td>
                 <td class="auto-style1">
                     &nbsp;</td>
