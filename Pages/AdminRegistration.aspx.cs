@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -22,17 +23,31 @@ namespace WebApplication1.Pages
             SqlCommand scmda = new SqlCommand(@"INSERT INTO [dbo].[Userreg]([FName],[LName],[Username],[Aadhar],[Address],[Password],[Usertype]) Values ('" + txtfname.Text + "','" + txtlname.Text + "','" + txtUser.Text + "','" + txtAadhar.Text + "','" + txtAddr.Text + "','" + txtPass.Text + "','" + adminType + "')", connection);
             SqlCommand scmdoa = new SqlCommand(@"INSERT INTO [dbo].[Login]([Username],[Password],[Usertype]) Values ('" + txtUser.Text + "','" + txtPass.Text + "','" + adminType + "')", connection);
             connection.Open();
-            if (adminType == null)
+            SqlCommand q = new SqlCommand("Select * FROM Userreg where Username = '" + txtUser.Text + "'", connection);
+            SqlDataReader sdr = q.ExecuteReader();
+            int count = 0;
+            while (sdr.Read())
             {
-                Response.Write("<script>alert('Please select the admintype!')</script>");
+                count++;
+            }
+            connection.Close();
+            if (count > 0)
+            {
+                Response.Write("<script>alert('Username already exists')</script>");
+                UserType.Checked = false;
             }
             else
             {
+                connection.Open();
                 scmda.ExecuteNonQuery();
                 scmdoa.ExecuteNonQuery();
                 connection.Close();
-                Response.Write("<script>alert('admin Registered successfully!')</script>");
+                Response.Write("<script>alert('Admin Registered successfully!')</script>");
                 Server.Transfer("AdminHome.aspx");
+            }
+            if (adminType == null)
+            {
+                Response.Write("<script>alert('Please select the admintype!')</script>");
             }
         }
 

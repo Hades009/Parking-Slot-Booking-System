@@ -26,10 +26,15 @@
             height: 640px;
         }
         .mybtn {
-        border-radius: 20px;
-        background-color: rgb(0, 200, 143);
-        width: 115px;
-        height: 24px;
+            transition-duration: 0.4s;
+            border-radius: 20px;
+            background-color: rgb(0, 200, 143);
+            width: 115px;
+            height: 24px;
+        }
+        .mybtn:hover {
+            color: #2d63c8;
+			background-color: #ffffff;
         }
         .auto-style8 {
             height: 8px;

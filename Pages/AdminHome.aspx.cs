@@ -13,5 +13,10 @@ namespace WebApplication1.Pages
         {
 
         }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("Login.aspx");
+        }
     }
 }

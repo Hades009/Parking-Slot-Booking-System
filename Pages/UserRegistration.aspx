@@ -16,6 +16,10 @@
         width: 115px;
         height: 24px;
         }
+        .mybtn:hover {
+            color: #2d63c8;
+			background-color: #ffffff;
+        }
         .auto-style1 {
             width: 446px;
         }

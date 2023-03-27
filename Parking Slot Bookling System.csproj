@@ -72,6 +72,10 @@
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="Img\5034901-200-removebg-preview.png" />
+    <Content Include="Img\download-removebg-preview.png" />
+    <Content Include="Img\download__1_-removebg-preview.png" />
+    <Content Include="Img\free-parking-sign-icon-1641-thumb.png" />
+    <Content Include="Img\manage-icon-6.jpg" />
     <Content Include="Pages\AdminRegistration.aspx" />
     <Content Include="Pages\UserHome.aspx" />
     <Content Include="Pages\AdminHome.aspx" />
