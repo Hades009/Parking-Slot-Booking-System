@@ -10,15 +10,12 @@
             resize:none;
         }
         .mybtn {
-        border-radius: 20px;
-        background-color: rgb(0, 200, 143);
-        position:center;
-        width: 115px;
-        height: 24px;
-        }
-        .mybtn:hover {
-            color: #2d63c8;
-			background-color: #ffffff;
+            transition-duration:0.4s;
+            border-radius: 20px;
+            background-color: rgb(0, 200, 143);
+            position:center;
+            width: 115px;
+            height: 24px;
         }
         .auto-style1 {
             width: 446px;
@@ -163,7 +160,7 @@
             </tr>
             <tr>
                 <td class="auto-style7">
-                    <asp:Button ID="registerBtn" runat="server" class="mybtn" Height="36px" Text="Register" Width="171px" Font-Names="Verdana" BorderStyle="None" ForeColor="White" OnClick="registerBtn_Click" Font-Size="Medium" />
+                    <asp:Button ID="registerBtn" runat="server" class="mybtn" Height="36px" Text="Register" Width="171px" Font-Names="Verdana" ForeColor="White" OnClick="registerBtn_Click" Font-Size="Medium" />
                 </td>
                 <td class="auto-style1">
                     &nbsp;</td>

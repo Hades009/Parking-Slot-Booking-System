@@ -53,41 +53,41 @@
             <tr>
                 <td class="auto-style4" draggable="false" style="margin: 50px; padding: 50px;">
                     <br />
-                    <asp:Image ID="Image1" runat="server" Height="200px" Width="200px" ImageUrl="~/Img/download__1_-removebg-preview.png" />
+                    <br />
+                    <asp:Image ID="Image1" runat="server" Height="200px" ImageAlign="Middle" ImageUrl="~/Img/download__1_-removebg-preview.png" Width="200px" />
                     <br />
                     <br />
-                    <br />
-                    <asp:Button ID="Button1" runat="server" class="genbutton" Text="Add a new Admin" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" />
+                    <asp:Button ID="Button1" runat="server" class="genbutton" Text="Add a new Admin" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" OnClick="Button1_Click" />
                     <br />
                 </td>
                 <td class="auto-style4" draggable="false" style="margin: 50px; padding: 50px;">
                     <br />
-                    <asp:Image ID="Image2" runat="server" Height="200px" Width="200px" ImageUrl="~/Img/free-parking-sign-icon-1641-thumb.png" />
+                    <br />
+                    <asp:Image ID="Image2" runat="server" Height="200px" ImageAlign="Middle" ImageUrl="~/Img/free-parking-sign-icon-1641-thumb.png" Width="200px" />
                     <br />
                     <br />
-                    <br />
-                    <asp:Button ID="Button2" runat="server" Text="Manage parking slots" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" />
+                    <asp:Button ID="Button2" runat="server" Text="Manage parking slots" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" OnClick="Button2_Click" />
                     <br />
                 </td>
             </tr>
             <tr>
                 <td class="auto-style4" draggable="false" style="margin: 50px; padding: 50px;">
                     <br />
-                    <asp:Image ID="Image3" runat="server" Height="200px" Width="200px" ImageUrl="~/Img/download-removebg-preview.png" />
+                    <asp:Image ID="Image4" runat="server" Height="200px" ImageAlign="Middle" ImageUrl="~/Img/download-removebg-preview.png" Width="200px" />
                     <br />
                     <br />
                     <br />
-                    <asp:Button ID="Button3" runat="server" Text="View Booking Reports" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" />
+                    <asp:Button ID="Button3" runat="server" Text="View Booking Reports" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" OnClick="Button3_Click" />
                     <br />
                     <br />
                 </td>
                 <td class="auto-style4" draggable="false" style="margin: 50px; padding: 50px;">
                     <br />
-                    <asp:Image ID="Image4" runat="server" Height="200px" Width="200px" ImageUrl="~/Img/manage-icon-6.jpg" />
+                    <asp:Image ID="Image3" runat="server" Height="200px" ImageAlign="Middle" ImageUrl="~/Img/manage-icon-6.jpg" Width="200px" />
                     <br />
                     <br />
                     <br />
-                    <asp:Button ID="Button4" runat="server" Text="Manage Users/Admins" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" Width="204px" />
+                    <asp:Button ID="Button4" runat="server" Text="Manage Users/Admins" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" Width="204px" OnClick="Button4_Click" />
                     <br />
                     <br />
                 </td>

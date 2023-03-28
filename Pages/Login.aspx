@@ -28,13 +28,10 @@
         .mybtn {
             transition-duration: 0.4s;
             border-radius: 20px;
-            background-color: rgb(0, 200, 143);
+            background-color: #00c88f;
+			border: 1px solid #00c88f;
             width: 115px;
             height: 24px;
-        }
-        .mybtn:hover {
-            color: #2d63c8;
-			background-color: #ffffff;
         }
         .auto-style8 {
             height: 8px;
@@ -127,7 +124,7 @@
             <td colspan="2" class="auto-style6" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
         </tr>
         <tr>
-            <td colspan="2" class="auto-style4" ><asp:Button class="mybtn" ID="Button1" runat="server" Text="Login" Width="169px" OnClick="Button1_Click"  Height ="32px" ForeColor="White" Font-Names="Verdana" Font-Size="Medium" />
+            <td colspan="2" class="auto-style4" ><asp:Button class="mybtn" ID="Button1" runat="server" Text="Login" Width="169px" OnClick="Button1_Click"  Height ="32px" ForeColor="White" Font-Names="Verdana" Font-Size="Medium" CssClass="mybtn" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 
             </td>

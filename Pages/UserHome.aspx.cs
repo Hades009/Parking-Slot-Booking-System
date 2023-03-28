@@ -13,5 +13,25 @@ namespace WebApplication1.Pages
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("Login.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("Bookparking.aspx");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("PreviousBook.aspx");
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Server.Transfer("Account.aspx");
+        }
     }
 }

@@ -71,14 +71,23 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="Img\3157802-200.png" />
     <Content Include="Img\5034901-200-removebg-preview.png" />
     <Content Include="Img\download-removebg-preview.png" />
     <Content Include="Img\download__1_-removebg-preview.png" />
     <Content Include="Img\free-parking-sign-icon-1641-thumb.png" />
     <Content Include="Img\manage-icon-6.jpg" />
+    <Content Include="Img\parking-svgrepo-com.png" />
+    <Content Include="Img\user-account-profile.png" />
+    <Content Include="Pages\Account.aspx" />
     <Content Include="Pages\AdminRegistration.aspx" />
+    <Content Include="Pages\Bookparking.aspx" />
+    <Content Include="Pages\Parkingmgmt.aspx" />
+    <Content Include="Pages\PreviousBook.aspx" />
+    <Content Include="Pages\Reports.aspx" />
     <Content Include="Pages\UserHome.aspx" />
     <Content Include="Pages\AdminHome.aspx" />
+    <Content Include="Pages\Usermgmt.aspx" />
     <Content Include="Pages\UserRegistration.aspx" />
     <Content Include="Web.config" />
     <Content Include="Pages\Login.aspx" />
@@ -91,12 +100,47 @@
     <Compile Include="Master Pages\Design.Master.designer.cs">
       <DependentUpon>Design.Master</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Account.aspx.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Account.aspx.designer.cs">
+      <DependentUpon>Account.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\AdminRegistration.aspx.cs">
       <DependentUpon>AdminRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\AdminRegistration.aspx.designer.cs">
       <DependentUpon>AdminRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Bookparking.aspx.cs">
+      <DependentUpon>Bookparking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Bookparking.aspx.designer.cs">
+      <DependentUpon>Bookparking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Parkingmgmt.aspx.cs">
+      <DependentUpon>Parkingmgmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Parkingmgmt.aspx.designer.cs">
+      <DependentUpon>Parkingmgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PreviousBook.aspx.cs">
+      <DependentUpon>PreviousBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PreviousBook.aspx.designer.cs">
+      <DependentUpon>PreviousBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\UserHome.aspx.cs">
       <DependentUpon>UserHome.aspx</DependentUpon>
@@ -111,6 +155,13 @@
     </Compile>
     <Compile Include="Pages\AdminHome.aspx.designer.cs">
       <DependentUpon>AdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Usermgmt.aspx.cs">
+      <DependentUpon>Usermgmt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Usermgmt.aspx.designer.cs">
+      <DependentUpon>Usermgmt.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\UserRegistration.aspx.cs">
       <DependentUpon>UserRegistration.aspx</DependentUpon>

@@ -69,13 +69,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// Image3 control.
+        /// Image4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image3;
+        protected global::System.Web.UI.WebControls.Image Image4;
 
         /// <summary>
         /// Button3 control.
@@ -87,13 +87,13 @@ namespace WebApplication1.Pages
         protected global::System.Web.UI.WebControls.Button Button3;
 
         /// <summary>
-        /// Image4 control.
+        /// Image3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image4;
+        protected global::System.Web.UI.WebControls.Image Image3;
 
         /// <summary>
         /// Button4 control.
