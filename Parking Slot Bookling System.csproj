@@ -79,7 +79,6 @@
     <Content Include="Img\manage-icon-6.jpg" />
     <Content Include="Img\parking-svgrepo-com.png" />
     <Content Include="Img\user-account-profile.png" />
-    <Content Include="Pages\Account.aspx" />
     <Content Include="Pages\AdminRegistration.aspx" />
     <Content Include="Pages\Bookparking.aspx" />
     <Content Include="Pages\Parkingmgmt.aspx" />
@@ -99,13 +98,6 @@
     </Compile>
     <Compile Include="Master Pages\Design.Master.designer.cs">
       <DependentUpon>Design.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Account.aspx.cs">
-      <DependentUpon>Account.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Account.aspx.designer.cs">
-      <DependentUpon>Account.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\AdminRegistration.aspx.cs">
       <DependentUpon>AdminRegistration.aspx</DependentUpon>

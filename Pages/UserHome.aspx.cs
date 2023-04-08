@@ -28,10 +28,5 @@ namespace WebApplication1.Pages
         {
             Server.Transfer("PreviousBook.aspx");
         }
-
-        protected void Button4_Click(object sender, EventArgs e)
-        {
-            Server.Transfer("Account.aspx");
-        }
     }
 }

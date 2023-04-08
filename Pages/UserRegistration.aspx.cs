@@ -35,6 +35,10 @@ namespace WebApplication1.Pages
                 Response.Write("<script>alert('Username already exists')</script>");
                 UserType.Checked = false;
             }
+            else if (usrType == null)
+            {
+                Response.Write("<script>alert('Please select the Usertype!')</script>");
+            }
             else
             {
                 con.Open();
@@ -44,10 +48,7 @@ namespace WebApplication1.Pages
                 Response.Write("<script>alert('User Registered successfully!')</script>");
                 Server.Transfer("Login.aspx");
             }
-            if (usrType == null)
-            {
-                Response.Write("<script>alert('Please select the usertype!')</script>");
-            }
+            
         }
         protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {

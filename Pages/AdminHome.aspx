@@ -3,6 +3,7 @@
     <style type="text/css">
         .auto-style3 {
             width: 100%;
+            height: 769px;
         }
         .auto-style4 {
             text-align: center;

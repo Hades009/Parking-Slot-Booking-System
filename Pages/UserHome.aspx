@@ -3,6 +3,7 @@
     <style type="text/css">
         .auto-style3 {
             width: 100%;
+            height: 717px;
         }
         .auto-style5 {
             text-align: right;
@@ -47,9 +48,9 @@
             width: 150px;
             padding: 0px 5px;
         }
-        .auto-style7 {
+        .auto-style9 {
             text-align: center;
-            width: 373px;
+            width: 400px;
             height: 658px;
         }
     </style>
@@ -58,12 +59,12 @@
     <form id="form1" runat="server">
         <table align="center" class="auto-style3">
             <tr>
-                <td class="auto-style5" colspan="3">
+                <td class="auto-style5" colspan="2">
                     <asp:Button ID="Button1" runat="server" Text="Log-Out" CssClass="auto-style6" Font-Names="Verdana" Font-Size="Medium" OnClick="Button1_Click" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style7" style="margin: 50px; padding: 50px;">
+                <td class="auto-style9" style="margin: 50px; padding: 50px;">
                     <br />
                     <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" Text="BOOK A NEW SLOT"></asp:Label>
                     <br />
@@ -76,7 +77,7 @@
                     <asp:Button ID="Button2" runat="server" Text="Book " CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" Font-Underline="False" OnClick="Button2_Click" />
                     <br />
                 </td>
-                <td class="auto-style7" style="margin: 50px; padding: 50px;">
+                <td class="auto-style9" style="margin: 50px; padding: 50px;">
                     <br />
                     <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" Text="CHECK PREVIOUS ORDERS"></asp:Label>
                     <br />
@@ -87,19 +88,6 @@
                     <br />
                     <br />
                     <asp:Button ID="Button3" runat="server" Text="View" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" OnClick="Button3_Click" />
-                </td>
-                <td class="auto-style7" style="margin: 50px; padding: 50px;">
-                    <br />
-                    <asp:Label ID="Label3" runat="server" Font-Bold="True" Font-Names="Verdana" Font-Size="Medium" Text="USER PROFILE"></asp:Label>
-                    <br />
-                    <br />
-                    <br />
-                    <asp:Image ID="Image3" runat="server" Height="200px" ImageUrl="~/Img/user-account-profile.png" Width="200px" />
-                    <br />
-                    <br />
-                    <br />
-                    <asp:Button ID="Button4" runat="server" Text="View" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" OnClick="Button4_Click" />
-                    <br />
                 </td>
             </tr>
         </table>
