@@ -21,7 +21,7 @@ namespace WebApplication1.Pages
             SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"F:\\ASP Project\\WebApplication1\\App_Data\\Database1.mdf\";Integrated Security=True");
             SqlCommand scmd = new SqlCommand(@"INSERT INTO [dbo].[Userreg]([FName],[LName],[Username],[Aadhar],[Address],[Password],[Usertype]) Values ('" + txtfname.Text + "','" + txtlname.Text + "','" + txtUser.Text + "','" + txtAadhar.Text + "','" + txtAddr.Text + "','" + txtPass.Text + "','" + usrType + "')",con);
             SqlCommand scmdo = new SqlCommand(@"INSERT INTO [dbo].[Login]([Username],[Password],[Usertype]) Values ('" + txtUser.Text + "','" + txtPass.Text + "','" + usrType + "')", con);
-            SqlCommand q = new SqlCommand("Select * FROM Userreg where Username = '" + txtUser.Text + "'", con);
+            SqlCommand q = new SqlCommand("SELECT * FROM [dbo].[Userreg] WHERE Username = '" + txtUser.Text + "' AND Aadhar = '" + txtAadhar.Text + "'", con);
             con.Open();
             SqlDataReader sdr = q.ExecuteReader();
             int count = 0;
@@ -32,7 +32,7 @@ namespace WebApplication1.Pages
             con.Close();
             if (count > 0)
             {
-                Response.Write("<script>alert('Username already exists')</script>");
+                Response.Write("<script>alert('Username/aadhar already exists')</script>");
                 UserType.Checked = false;
             }
             else if (usrType == null)

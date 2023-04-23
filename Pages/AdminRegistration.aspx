@@ -33,11 +33,20 @@
             width: 446px;
             height: 67px;
         }
+        .auto-style6 {
+            text-align: center;
+            height: 80px;
+        }
     </style>
 </head>
 <body bgcolor="#EEEEEE">
    <form id="form1" runat="server">
         <table align="center">
+            <tr>
+                <td colspan="2" class="auto-style6">
+                    <asp:Label ID="Label12" runat="server" Font-Bold="True" Font-Names="Verdana" Font-Size="XX-Large" Text="ADMIN REGISTRATION"></asp:Label>
+                </td>
+            </tr>
             <tr>
                 <td colspan="2" class="auto-style12">
                     <br />
@@ -59,7 +68,7 @@
                 </td>
                 <td class="auto-style1">
                     <br />
-                    <asp:TextBox ID="txtfname" runat="server" Width="190px" Font-Names="Verdana"></asp:TextBox>
+                    <asp:TextBox ID="txtfname" runat="server" Width="190px" Font-Names="Verdana" Font-Size="Medium"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtfname" Display="Dynamic" ErrorMessage="*" Font-Names="Verdana" ForeColor="Red"></asp:RequiredFieldValidator>
                     <br />
                     <br />
@@ -71,7 +80,7 @@
                 </td>
                 <td class="auto-style1">
                     <br />
-                    <asp:TextBox ID="txtlname" runat="server" Width="190px" Font-Names="Verdana"></asp:TextBox>
+                    <asp:TextBox ID="txtlname" runat="server" Width="190px" Font-Names="Verdana" Font-Size="Medium"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="txtlname" Display="Dynamic" ErrorMessage="*" Font-Names="Verdana" ForeColor="Red"></asp:RequiredFieldValidator>
                     <br />
                     <br />
@@ -83,7 +92,7 @@
                 </td>
                 <td class="auto-style5">
                     <br />
-                    <asp:TextBox ID="txtUser" runat="server" Width="190px" Font-Names="Verdana"></asp:TextBox>
+                    <asp:TextBox ID="txtUser" runat="server" Width="190px" Font-Names="Verdana" Font-Size="Medium"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtUser" Display="Dynamic" ErrorMessage="*" Font-Names="Verdana" ForeColor="Red"></asp:RequiredFieldValidator>
                     <br />
                     <br />
@@ -95,7 +104,7 @@
                 </td>
                 <td class="auto-style1">
                     <br />
-                    <asp:TextBox ID="txtAadhar" runat="server" Width="190px" Font-Names="Verdana" TextMode="Number"></asp:TextBox>
+                    <asp:TextBox ID="txtAadhar" runat="server" Width="190px" Font-Names="Verdana" TextMode="Number" Font-Size="Medium"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="txtAadhar" Display="Dynamic" ErrorMessage="*" Font-Names="Verdana" ForeColor="Red"></asp:RequiredFieldValidator>
                     <br />
                     <br />
@@ -107,7 +116,7 @@
                 </td>
                 <td class="auto-style1">
                     <br />
-                    <asp:TextBox ID="txtAddr" runat="server" Height="90px" TextMode="MultiLine" Width="430px" Font-Names="Verdana"></asp:TextBox>
+                    <asp:TextBox ID="txtAddr" runat="server" Height="90px" TextMode="MultiLine" Width="395px" Font-Names="Verdana" Font-Size="Medium"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtAddr" ErrorMessage="RequiredFieldValidator" Font-Names="Verdana" ForeColor="Red">*</asp:RequiredFieldValidator>
                     <br />
                     <br />
@@ -119,7 +128,7 @@
                 </td>
                 <td class="auto-style1">
                     <br />
-                    <asp:TextBox ID="txtPass" runat="server" TextMode="Password" Width="190px" Font-Names="Verdana"></asp:TextBox>
+                    <asp:TextBox ID="txtPass" runat="server" TextMode="Password" Width="190px" Font-Names="Verdana" Font-Size="Medium"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="RequiredFieldValidator" Font-Names="Verdana" ForeColor="Red" ControlToValidate="txtPass">*</asp:RequiredFieldValidator>
                     <br />
                     <br />
@@ -131,7 +140,7 @@
                 </td>
                 <td class="auto-style1">
                     <br />
-                    <asp:TextBox ID="txtConfpassw" runat="server" TextMode="Password" Width="190px" Font-Names="Verdana"></asp:TextBox>
+                    <asp:TextBox ID="txtConfpassw" runat="server" TextMode="Password" Width="190px" Font-Names="Verdana" Font-Size="Medium"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="RequiredFieldValidator" Font-Names="Verdana" ForeColor="Red" ControlToValidate="txtConfpassw">*</asp:RequiredFieldValidator>
                     <br />
                     <br />

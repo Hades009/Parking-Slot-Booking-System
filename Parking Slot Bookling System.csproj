@@ -77,11 +77,14 @@
     <Content Include="Img\download__1_-removebg-preview.png" />
     <Content Include="Img\free-parking-sign-icon-1641-thumb.png" />
     <Content Include="Img\manage-icon-6.jpg" />
+    <Content Include="Img\OIP %281%29.jpg" />
     <Content Include="Img\parking-svgrepo-com.png" />
     <Content Include="Img\user-account-profile.png" />
     <Content Include="Pages\AdminRegistration.aspx" />
     <Content Include="Pages\Bookparking.aspx" />
+    <Content Include="Img\cash-payment.png" />
     <Content Include="Pages\Parkingmgmt.aspx" />
+    <Content Include="Pages\Payment.aspx" />
     <Content Include="Pages\PreviousBook.aspx" />
     <Content Include="Pages\Reports.aspx" />
     <Content Include="Pages\UserHome.aspx" />
@@ -119,6 +122,13 @@
     </Compile>
     <Compile Include="Pages\Parkingmgmt.aspx.designer.cs">
       <DependentUpon>Parkingmgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Payment.aspx.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Payment.aspx.designer.cs">
+      <DependentUpon>Payment.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\PreviousBook.aspx.cs">
       <DependentUpon>PreviousBook.aspx</DependentUpon>

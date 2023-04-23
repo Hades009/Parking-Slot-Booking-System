@@ -45,7 +45,6 @@
             background-color: #f66a6a;
             border: 1px solid #f66a6a;
             cursor: pointer;
-            width: 150px;
             padding: 0px 5px;
         }
         .auto-style9 {
@@ -53,14 +52,25 @@
             width: 400px;
             height: 658px;
         }
+        .auto-style10 {
+            height: 908px;
+        }
+        .auto-style11 {
+            border-radius: 10px;
+            transition-duration: 0.4s;
+            color: #ffffff;
+            background-color: #00c88f;
+            border: 1px solid #00c88f;
+            cursor: pointer;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="auto-style10">
         <table align="center" class="auto-style3">
             <tr>
                 <td class="auto-style5" colspan="2">
-                    <asp:Button ID="Button1" runat="server" Text="Log-Out" CssClass="auto-style6" Font-Names="Verdana" Font-Size="Medium" OnClick="Button1_Click" />
+                    <asp:Button ID="Button1" runat="server" Text="Log-Out" CssClass="auto-style6" Font-Names="Verdana" Font-Size="Medium" OnClick="Button1_Click" Height="35px" Width="167px" />
                 </td>
             </tr>
             <tr>
@@ -70,11 +80,11 @@
                     <br />
                     <br />
                     <br />
-                    <asp:Image ID="Image1" runat="server" Height="200px" ImageUrl="~/Img/parking-svgrepo-com.png" Width="200px" />
+                    <asp:Image ID="Image1" runat="server" Height="329px" ImageUrl="~/Img/parking-svgrepo-com.png" Width="329px" />
                     <br />
                     <br />
                     <br />
-                    <asp:Button ID="Button2" runat="server" Text="Book " CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" Font-Underline="False" OnClick="Button2_Click" />
+                    <asp:Button ID="Button2" runat="server" Text="Book" class="genbutton" Font-Names="Verdana" Font-Size="Medium" Font-Underline="False" OnClick="Button2_Click" Height="35px" Width="205px" />
                     <br />
                 </td>
                 <td class="auto-style9" style="margin: 50px; padding: 50px;">
@@ -83,11 +93,11 @@
                     <br />
                     <br />
                     <br />
-                    <asp:Image ID="Image2" runat="server" Height="200px" ImageUrl="~/Img/3157802-200.png" Width="200px" />
+                    <asp:Image ID="Image2" runat="server" Height="329px" ImageUrl="~/Img/3157802-200.png" Width="329px" />
                     <br />
                     <br />
                     <br />
-                    <asp:Button ID="Button3" runat="server" Text="View" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" OnClick="Button3_Click" />
+                    <asp:Button ID="Button3" runat="server" Text="View" CssClass="genbutton" Font-Names="Verdana" Font-Size="Medium" OnClick="Button3_Click" Height="35px" Width="255px" />
                 </td>
             </tr>
         </table>
