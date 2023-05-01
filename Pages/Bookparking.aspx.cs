@@ -11,10 +11,9 @@ namespace WebApplication1.Pages
     public partial class Bookparking : System.Web.UI.Page
     {
         string vehicleType;
-        string nowDate = DateTime.Now.ToString("yyyy-MM-dd");
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            RangeValidator1.MinimumValue= DateTime.Now.AddDays(1.0).ToString("d");
         }
         protected void redirect(object sender, EventArgs e)
         {

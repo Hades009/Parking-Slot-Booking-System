@@ -112,7 +112,7 @@
                     &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator9" runat="server" ControlToValidate="unametxt" ErrorMessage="*" Font-Names="Verdana" ForeColor="Red" Font-Size="Medium"></asp:RequiredFieldValidator>
                     <br />
                 </td>
-                <td class="auto-style23" rowspan="5" style="background-color: #CCFFCC; padding: 10px">
+                <td class="auto-style23" rowspan="6" style="background-color: #CCFFCC; padding: 10px">
                     <asp:Image ID="Image1" runat="server" ImageUrl="~/Img/OIP (1).jpg" Width="860px" />
                 </td>
             </tr>
@@ -168,6 +168,13 @@
                     <asp:TextBox ID="date" runat="server" TextMode="Date" Width="141px" Font-Names="Verdana" Font-Size="Medium" Height="25px"></asp:TextBox>
                     &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="date" ErrorMessage="*" Font-Names="Verdana" ForeColor="Red" Font-Size="Medium"></asp:RequiredFieldValidator>
                     <br />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style9" style="background-color: #CCFFCC; padding: 10px">
+                    &nbsp;</td>
+                <td class="auto-style19" style="background-color: #CCFFCC; padding: 10px">
+                    <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="date" ErrorMessage="Date should'nt be lesser than today" Font-Names="Verdana" Font-Size="Medium" ForeColor="Red" MaximumValue="1/1/2045" MinimumValue="1/1/1999"></asp:RangeValidator>
                 </td>
             </tr>
             <tr>
